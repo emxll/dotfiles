@@ -1,0 +1,28 @@
+*
+!.gitignore
+
+#allow whitelisting within config folder
+!.config
+.config/*
+
+#hyprland conf
+!.config/hypr
+.config/hypr/*
+!.config/hypr/hyprland.conf
+
+#kitty conf
+!.config/kitty
+.config/kitty/*
+!.config/kitty/kitty.conf
+
+#spicetify conf
+!.config/spicetify
+.config/spicetify/*
+!.config/spicetify/config-xpui.ini
+
+#wallpapers
+!wallpapers
+!wallpapers/with_watermarks
+!wallpapers/nuked_watermarks
+!wallpapers/with_watermarks/*
+!wallpapers/nuked_watermarks/*
