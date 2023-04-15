@@ -26,3 +26,7 @@
 !wallpapers/nuked_watermarks
 !wallpapers/with_watermarks/*
 !wallpapers/nuked_watermarks/*
+
+#additional configs that dont go in home directory
+!additional_configs
+!additional_configs/*
