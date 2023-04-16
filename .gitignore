@@ -3,21 +3,18 @@
 
 #allow whitelisting within config folder
 !.config
-.config/*
 
 #hyprland conf
 !.config/hypr
-.config/hypr/*
 !.config/hypr/hyprland.conf
 
 #kitty conf
 !.config/kitty
-.config/kitty/*
 !.config/kitty/kitty.conf
+!.config/kitty/theme.conf
 
 #spicetify conf
 !.config/spicetify
-.config/spicetify/*
 !.config/spicetify/config-xpui.ini
 
 #wallpapers
