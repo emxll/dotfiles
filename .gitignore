@@ -14,8 +14,8 @@
 !.config/kitty/theme.conf
 
 #spicetify conf
-!.config/spicetify
-!.config/spicetify/config-xpui.ini
+#!.config/spicetify
+#!.config/spicetify/config-xpui.ini
 
 #wallpapers
 !wallpapers
