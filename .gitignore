@@ -8,6 +8,10 @@
 !.config/hypr
 !.config/hypr/hyprland.conf
 
+#hyprland scripts
+!.config/hypr/scripts/
+!.config/hypr/scripts/*
+
 #kitty conf
 !.config/kitty
 !.config/kitty/kitty.conf
