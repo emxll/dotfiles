@@ -1,1 +1,5 @@
-theme = "hex_steel"
+theme = "ingrid"
+
+[editor]
+mouse = false
+bufferline = "always"
