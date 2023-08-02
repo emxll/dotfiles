@@ -21,6 +21,9 @@
 !.config/helix
 !.config/helix/config.toml
 
+#tmux
+!.tmux.conf
+
 #spicetify conf
 #!.config/spicetify
 #!.config/spicetify/config-xpui.ini
