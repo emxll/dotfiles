@@ -1,0 +1,42 @@
+@define-color bg rgba(30,0,60,0.5);
+@define-color transp rgba(0,0,0,0);
+@define-color glow rgba(96,160,223,1);
+@define-color lights rgba(255,255,255,0.65);
+
+window {
+  background-color: @transp;
+}
+#outer-box{
+  background-color: @bg;
+}
+#scroll {
+  overflow: visible;
+}
+#input {
+  background-color: @transp;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0 0 20px @glow;
+  border: solid @lights 2px;
+  margin: 8px;
+  margin-bottom: 0px;
+}
+#entry {
+  margin:8px;
+}
+#entry:selected {
+  background-color: @transp;
+  border-style: solid;
+  border: solid @lights 2px;
+  box-shadow: 0 0 10px @glow;
+  border-radius: 6px;
+  outline: none;
+}
+#text {
+  color: white;
+  font-weight: bold;
+  padding: 6px;
+}
+#text:selected {
+  color: @glow;
+}
