@@ -24,6 +24,10 @@
 #tmux
 !.tmux.conf
 
+#wofi conf
+!.config/wofi
+!.config/wofi/style.css
+
 #spicetify conf
 #!.config/spicetify
 #!.config/spicetify/config-xpui.ini
